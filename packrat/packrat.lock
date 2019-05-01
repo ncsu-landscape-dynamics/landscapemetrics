@@ -1,0 +1,162 @@
+PackratFormat: 1.4
+PackratVersion: 0.5.0
+RVersion: 3.5.3
+Repos: CRAN=https://mirrors.nics.utk.edu/cran
+
+Package: R6
+Source: CRAN
+Version: 2.4.0
+Hash: 948a547c484e5bea15eee76cc53cce3f
+
+Package: RColorBrewer
+Source: CRAN
+Version: 1.1-2
+
+Package: Rcpp
+Source: CRAN
+Version: 1.0.1
+Hash: 390ed5b5da840cec3e6f5c90c6ab23f7
+
+Package: RcppArmadillo
+Source: CRAN
+Version: 0.9.300.2.0
+Requires: Rcpp
+
+Package: assertthat
+Source: CRAN
+Version: 0.2.1
+Hash: 622be49032fe50bd42e96aaef613e209
+
+Package: cli
+Source: CRAN
+Version: 1.1.0
+Hash: bc4e54014c2049f2605ad0c3ba0cce6b
+Requires: assertthat, crayon
+
+Package: colorspace
+Source: CRAN
+Version: 1.4-1
+
+Package: crayon
+Source: CRAN
+Version: 1.3.4
+Hash: ff2840dd9b0d563fc80377a5a45510cd
+
+Package: digest
+Source: CRAN
+Version: 0.6.18
+Hash: 65f62365ec69ddd17230d2ffe891a6ab
+
+Package: fansi
+Source: CRAN
+Version: 0.4.0
+
+Package: ggplot2
+Source: CRAN
+Version: 3.1.1
+Requires: digest, rlang, withr, gtable, lazyeval, plyr, reshape2,
+    scales, tibble, viridisLite
+
+Package: glue
+Source: CRAN
+Version: 1.3.1
+Hash: 660bbbe3803c7cf7c9489a7d99a9c0ed
+
+Package: gtable
+Source: CRAN
+Version: 0.3.0
+
+Package: labeling
+Source: CRAN
+Version: 0.3
+
+Package: landscapemetrics
+Source: CRAN
+Version: 1.0
+Requires: Rcpp, cli, crayon, raster, sp, RcppArmadillo, ggplot2, tibble
+
+Package: lazyeval
+Source: CRAN
+Version: 0.2.2
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: munsell
+Source: CRAN
+Version: 0.5.0
+Requires: colorspace
+
+Package: packrat
+Source: CRAN
+Version: 0.5.0
+Hash: 498643e765d1442ba7b1160a1df3abf9
+
+Package: pillar
+Source: CRAN
+Version: 1.3.1
+Requires: cli, crayon, rlang, fansi, utf8
+
+Package: pkgconfig
+Source: CRAN
+Version: 2.0.2
+
+Package: plyr
+Source: CRAN
+Version: 1.8.4
+Requires: Rcpp
+
+Package: raster
+Source: CRAN
+Version: 2.8-19
+Hash: 7510738d1d604cc43ca39dc5920237a7
+Requires: Rcpp, sp
+
+Package: reshape2
+Source: CRAN
+Version: 1.4.3
+Requires: Rcpp, plyr, stringr
+
+Package: rlang
+Source: CRAN
+Version: 0.3.4
+Hash: 6a5220d1a973463418286038095d8c0b
+
+Package: scales
+Source: CRAN
+Version: 1.0.0
+Requires: R6, Rcpp, RColorBrewer, labeling, munsell, viridisLite
+
+Package: sp
+Source: CRAN
+Version: 1.3-1
+Hash: 01decf1327caff54d7822434d07fa959
+
+Package: stringi
+Source: CRAN
+Version: 1.4.3
+
+Package: stringr
+Source: CRAN
+Version: 1.4.0
+Requires: glue, magrittr, stringi
+
+Package: tibble
+Source: CRAN
+Version: 2.1.1
+Requires: cli, crayon, rlang, fansi, pillar, pkgconfig
+
+Package: utf8
+Source: CRAN
+Version: 1.1.4
+
+Package: viridisLite
+Source: CRAN
+Version: 0.3.0
+
+Package: withr
+Source: CRAN
+Version: 2.1.2
+Hash: d534108bcd5f34ec73e9eb523751ba20
